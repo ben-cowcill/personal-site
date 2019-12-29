@@ -1,0 +1,158 @@
+/* Setup */
+
+html {
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: normal;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/* Navigation */
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #24305E;
+}
+
+#navwrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 33vw;
+}
+  
+.navlink {
+    text-decoration: none;
+    color: #F8F4E3;
+    font-size: 36px;
+}
+
+.navlink:hover {
+  color: #EF8354;
+}
+
+
+/* Main */
+
+#welcome-section {
+  height: 100vh;
+  margin: auto;
+  background-color: #24305E;
+  color: #F8F4E3;
+  font-size: 36px;
+}
+
+.page-copy {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    width: 50%;
+}
+
+.logo {
+    font-size: 72px;
+    width: 72px;
+    margin: 40px;
+}
+
+#Ben {
+    width: 200px;
+    height: auto;
+}
+
+#about {
+  background-color: #F8F4E3;
+}
+
+#projects {
+  color: #24305E;
+}
+
+.profile-link {
+  display: block;
+  margin: auto;
+  width: 150px;
+  padding: 10px;
+  text-decoration: none;
+  color: #323E46;
+  background-color: #EF8354;
+}
+
+#contact {
+  background-color: #F8F4E3;
+  color: #24305E;
+}
+
+#form {
+    padding-top: 20px;
+    border: 1px solid;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.forminput {
+    text-align: left;
+    width: 200px;
+    margin-bottom: 30px;
+  }
+  
+textarea {
+    height: 100px;
+  }
+  
+  .submit-btn {
+    background-color: #EF8354;
+    color: #323E46;
+    margin-bottom: 20px;
+    border: 1px solid #EF8354;
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+  }
+
+ /* other */
+  
+ footer, footer i {
+  background-color: #24305E;
+  color: #F8F4E3;
+ }
+
+.socials {
+  font-size: 36px;
+  margin: 40px;
+  color: #F8F4E3;
+}
