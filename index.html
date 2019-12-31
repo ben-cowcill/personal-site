@@ -22,10 +22,11 @@
 <main>
 
 <section id="welcome-section" class="flex-col">
-    <img src="images/hi_im_ben_2.gif" alt="Ben's face" id="Ben"></img>
+    <img id="Ben" onclick="changeBen()" src="images/benboring.jpg" alt="Ben's face" ></img>
     
     <h1>Hi, I'm Ben.</h1>
     <h2>I'm hoping to join the Founders and Coders cohort of Spring 2020</h2>
+    <p>I couldn't find a nice picture of myself. Click my face to help me out!</p>
 
 </section>
 
@@ -174,6 +175,15 @@ document.addEventListener("keydown", function(event) {
       break;
   }
 });
+
+function changeBen() {
+  let image = document.getElementById('Ben');
+  if (image.src.match("boring")) {
+    image.src = "images/bencool.gif";
+  } else {
+    image.src = "images/benboring.jpg";
+  }
+}
 
 </script>
 
